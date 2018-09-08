@@ -1,12 +1,13 @@
 {
-    "name": "mip-sample",
+    "name": "mip-alert",
     "version": "1.0.0",
-
-    "author": {
-        "name": "zt",
-        "email": "774739157@qq.com"
-    },
-
+    "description": "组件介绍",
+    "contributors": [
+        {
+            "name": "",
+            "email": ""
+        }
+    ],
     "engines": {
         "mip": ">=1.1.0"
     }
