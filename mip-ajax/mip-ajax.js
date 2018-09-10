@@ -12,7 +12,11 @@ define(function (require) {
      * 第一次进入可视区回调，只会执行一次
      */
     customElement.prototype.firstInviewCallback = function () {
-		console.log('呵呵');
+		var element = this.element;
+		var text = element.getAttribute('alert-text') || ' 默认 alert 内容 ';
+		element.addEventListener('click', function(){
+			console.log(text);
+		});
         // TODO
     };
 
